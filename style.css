@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap');
+*{
+  margin:0;
+  padding: 0;   
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+
+#nav{
+    background-color:#f9f9f7;
+    padding-top: 20px;
+}
+#nav .menu a{
+    color: black;
+    
+    text-decoration:none;  
+    margin-right: 30px;
+}
+
+.box-content{
+    width: 75%;
+
+    margin-right: auto;
+    margin-left: auto;
+    margin-top:40px;
+    margin-bottom:40px; 
+    margin: 0 auto;
+}
+
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#hero{
+    padding-top: 70px;
+    background-color: #FF900E1A;
+}
+
+.hero-info{
+    width:862px;
+    text-align: center;
+    margin: 0 auto;
+    
+.hero-info h1{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+.hero-info p{
+    font-size: 30px;
+    line-height: 4px;
+}
+.hero-image{
+    padding-top: 50px;
+}
+.hero-image img{
+    width: 100%;
+}
